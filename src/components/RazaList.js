@@ -9,6 +9,12 @@ query{
    id
     nombre
     description
+    armas
+    planeta
+    papel
+    rango
+    habilidad
+    tamano
   }
 }
   
@@ -48,8 +54,13 @@ const RazaList = () => {
         <tr>
           <th>id</th>
           <th>nombre</th>
-          
           <th>descripcion</th>
+          <th>armas usadas</th>
+          <th>planeta natal</th>
+          <th>papel jugado en la guerra</th>
+          <th>peligrocidad</th>
+          <th>habilidad</th>
+          <th>tamaño</th>
         </tr>
         </thead>
         <tbody background= "halo.jpg">
@@ -59,6 +70,12 @@ const RazaList = () => {
               <td>{raza.id}</td>
               <td>{raza.nombre}</td>
               <td>{raza.description}</td>
+              <td>{raza.armas}</td>
+              <td>{raza.planeta}</td>
+              <td>{raza.papel}</td>
+              <td>{raza.rango}</td>
+              <td>{raza.habilidad}</td>
+              <td>{raza.tamano}</td>
 
             </tr>
 
